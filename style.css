@@ -1,0 +1,96 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+/* ---------------------Body--------------------- */
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+/* ------------container------------------- */
+container{
+  padding:5%;
+  width: 54%;
+  margin-top: 2%;
+  margin-left: 18%;
+  margin-right: 18%;
+  background-color:  rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  border-radius:20px;
+}
+
+
+/* ----Header */
+header{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+img{
+  max-width: 25%;
+}
+h1{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: Lime;
+}
+
+
+/* ---------Nav */
+nav{
+
+  background-color: Lime;
+  width: 100%;
+  text-align: center;
+}
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/* -----------Main */
+
+ul{
+  list-style-type: square;
+  margin-bottom: 0px;
+  padding-inline-start: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+li:before{
+  content: "Monopattino ";
+
+}
+selection>div{
+  font-size: 16px;
+  font-weight: normal;
+}
+selection>div:nth-child(2):before{
+  content: "↦ ";
+  /* background-color: red; */
+}
+selection>div:nth-child(3):before{
+  content: "Stato carica:";
+  /* background-color: red; */
+}
+selection>div:last-child{
+  border-radius:5px;
+  display: inline-block;
+  padding: 14px 0px 14px 0px;
+}
+selection:first-child>div:last-child{
+  background-color: SandyBrown;
+  width: 35%;
+}
+selection:nth-child(2)>div:last-child{
+  background-color: Lime;
+  width: 55%;
+}
+selection:nth-child(3)>div:last-child{
+  background-color: indianred;
+  width: 15%;
+}
